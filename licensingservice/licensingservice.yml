@@ -1,3 +1,13 @@
 example:
     property:
         I AM Git Config
+
+
+spring:
+    datasource:
+        url:jdbc:h2:file:D:/DEV/H2DataBases/lecensing
+        driverClassName:org.h2.Driver
+        username:sa
+        password:
+    jpa:
+        database-platform:org.hibernate.dialect.H2Dialect
